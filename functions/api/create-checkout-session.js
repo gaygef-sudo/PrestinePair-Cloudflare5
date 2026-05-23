@@ -158,7 +158,7 @@ export async function onRequestPost({ request, env }) {
       'line_items[0][quantity]':    '1',
       'line_items[0][price_data][currency]':                'usd',
       'line_items[0][price_data][unit_amount]':             String(cents),
-      'line_items[0][price_data][product_data][name]':      `Pristine Pair — ${serviceDesc || 'Cleaning Service'}`,
+      'line_items[0][price_data][product_data][name]':      `Prestine Pair — ${serviceDesc || 'Cleaning Service'}`,
       'line_items[0][price_data][product_data][description]': itemDesc,
       'payment_intent_data[description]': serviceDesc || 'Cleaning Service',
       'billing_address_collection':  'auto',
